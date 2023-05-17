@@ -1,4 +1,20 @@
-.App {
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: darkblue;
+  border: solid black 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(4, 4, 97);
+  color: white;
+  border: solid black 2px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
